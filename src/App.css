@@ -2,37 +2,95 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: 'Bitter', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.verticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Must be used as the parent */
+.horizontalCenter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navBarDiv {
+  height: 5vh;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  background: #D1B1CB;
+}
+
+.navBarButton {
+  margin: 1.4vh 1vw 0 1vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  display: inline-flex;
+  align-items: center;
+  float: right;
+  }
+
+
+  /*NOT CURRENTLY IN USE 
+.active {
+  margin: 1.5vh 1vw 0 1vw;
+  min-height: 6.5vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  display: inline-flex;
+  align-items: center;
+  background-color: blue; 
+} */
+
+.navBarButtonText {
+  /*color: #7C616C;*/
   color: white;
+  margin: 0;
+  padding-top: 0;
+  border-bottom: 1px solid white;
 }
 
-.App-link {
-  color: #61dafb;
+.introBox {
+  /*border: 0.5vh solid red;*/
+  /*height: 70vh;*/
+  margin: 5% 8% 14% 8%;
+  padding: 5%;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myButton {
+  background-color: blue;
+  display: inline-block;
+}
+
+.introduction {
+  top: 20vh;
+  position: absolute;
+  width: 50%;
+}
+
+.projectBox {
+  padding: 3vh 0 3vh 0;
+}
+
+.projectImage {
+  width: 50%;
+  float: left;
+}
+
+.projectText {
+  width: 47%;
+  float: right;
+  padding: 0 1.5% 0 1.5%;
 }
