@@ -94,3 +94,12 @@ body {
   float: right;
   padding: 0 1.5% 0 1.5%;
 }
+
+.contactIcons {
+  width: 5%;
+}
+
+.skillsBox {
+  width: 50%;
+  float: left;
+}
