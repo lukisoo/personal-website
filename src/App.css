@@ -84,6 +84,14 @@ body {
   padding: 3vh 0 3vh 0;
 }
 
+/*not currently working*/
+@media screen and (max-width: 400px) {
+  .projectBox {
+    padding: 3vh 0 3vh 0;
+    float: none !important;
+  }
+}
+
 .projectImage {
   width: 50%;
   float: left;

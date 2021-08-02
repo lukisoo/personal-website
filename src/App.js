@@ -8,11 +8,11 @@ function App() {
   return (
     <Router>
 
-      <Route path="/*">
+      {/*<Route path="/*">
         <div className="navBarDiv">
           <NavBar/>
         </div>
-      </Route>
+  </Route>*/}
 
       <Switch>
 
