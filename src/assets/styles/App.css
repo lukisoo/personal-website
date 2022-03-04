@@ -38,6 +38,40 @@ body {
   /* background-color: red; */
 }
 
+/* Glass Div Background Effect */
+.glassBackground{
+  background-color: #FFFFFF50;
+  backdrop-filter: blur();
+  border-radius: 15px;
+  border: solid #FFFFFF30 2px;
+  padding: 5%;
+}
+
+
+/* Introduction */
+.intro{
+  height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 .verticalCenter {

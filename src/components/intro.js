@@ -10,21 +10,25 @@ import { Grid, Row, Col } from "antd";
 
 function Intro() {
   return (
-    <div className="content">
+    <div className="content intro">
       <Row>
         <Col span={24}>
-          <h3>Hey, I'm</h3>
-          <h1>Lucy Zhu</h1>
+            <div className="">
+                <h1>Hey, I'm Lucy Zhu.</h1>
           <h2>
             I'm an aspiring developer with experience in primarily web
             development, but also game and mobile development. I also dabble in
             the business side of things as I love seeing the bigger picture of
-            how everything works. I just like to code and create cool things.
+            how everything works (or why it doesn't work!). In short, I just
+            like to code and create cool things.
           </h2>
+
           <h2>
             I'm currently a 2nd year Software Engineering / Commerce
             (accounting/finance major) student at the University of Auckland.
           </h2>
+            </div>
+          
         </Col>
       </Row>
     </div>
