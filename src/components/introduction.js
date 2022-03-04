@@ -1,13 +1,11 @@
-import auxiliumWindow from "./../images/auxiliumWindow.png";
-import oceaneyesWindow from "./../images/oceaneyesWindow.png";
-import JazzClubWindow from "./../images/jazzClubWindow.png";
-import HabidaptWindow from "./../images/habidaptWindow.png";
-import DiscoverWindow from "./../images/discoverWindow.png";
-import ProcastWindow from "./../images/procastWindow.png";
-import linkedin from "./../images/linkedin.png";
-import email from "./../images/email.png";
-import ParticleBackground from "./../ParticleBackground.js";
-
+import auxiliumWindow from "./../assets/images/auxiliumWindow.png";
+import oceaneyesWindow from "./../assets/images/oceaneyesWindow.png";
+import JazzClubWindow from "./../assets/images/jazzClubWindow.png";
+import HabidaptWindow from "./../assets/images/habidaptWindow.png";
+import DiscoverWindow from "./../assets/images/discoverWindow.png";
+import ProcastWindow from "./../assets/images/procastWindow.png";
+import linkedin from "./../assets/images/linkedin.png";
+import email from "./../assets/images/email.png";
 
 function Introduction () {
 
@@ -30,7 +28,6 @@ function Introduction () {
             
                 <section>
                     <div style={{backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "50% 50%"}}>
-                        <ParticleBackground/>
                         <div style={{marginTop: "0"}} className="introBox introduction">
                             <h2><strong>Hi, I'm Lucy Zhu</strong>.</h2>
                             <h2>I’m an aspiring developer who is passionate about finding and developing apps and solutions.</h2>

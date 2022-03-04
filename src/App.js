@@ -1,8 +1,8 @@
-import './App.css';
-import './background.css';
+import './assets/styles/App.css';
+import './assets/styles/background.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NavBar from "../src/components/navbar";
 import Introduction from "../src/components/introduction";
+import HomePage from "../src/pages/homepage";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Switch>
 
         <Route path="/">
+          <HomePage/>
           <Introduction/>
         </Route>
 
